@@ -9,6 +9,7 @@ class Roster extends Component {
       <Switch>
         <Route exact path="/roster" component={FullRoster} />
         <Route path="/roster/:number" component={Player} />
+        
       </Switch>
     );
   }
